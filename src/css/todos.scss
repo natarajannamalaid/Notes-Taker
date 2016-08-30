@@ -1,0 +1,25 @@
+.todos{
+	&_create-input{
+	margin: 0 auto 5px;
+	width: 300px;
+	}
+	&_create-button{
+	display: block;
+	margin: 0 auto 20px;
+	}
+	&_update-input{
+	margin: 0 auto;
+	width: 200px;
+	}
+	
+	
+	&_task{
+	&--completed{
+	text-decoration:line-through;
+	}
+	}
+th, td{
+	font-size: 20px;
+	text-aligh: center;
+	}
+}
